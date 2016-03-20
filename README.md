@@ -1,0 +1,1 @@
+# Paradigmas.2016.1

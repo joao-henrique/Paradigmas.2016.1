@@ -1,0 +1,72 @@
+
+Public class Conta(){
+
+  private  String nome;
+  private  String numeroConta;
+  private  Double saldo;
+
+  
+  public Conta(String nome,String numeroConta, Double saldo){
+    this.nome = nome;
+    this.numeroConta = numeroConta;
+    this.saldo = saldo;
+  }
+
+  public Conta(){
+  }
+
+  public getNome(){
+    return this.nome;
+  }
+
+  public setNome(String nome){
+      this.nome = nome;
+  }
+
+  public deposito(double valorDepositado){
+    this.saldo = this.saldo + valorDepositado;
+  }
+
+  public saque(double valorSacado){
+    this.saldo = this.saldo - valorSacado;
+  }
+
+}
+----------------------------------------------------------------------
+
+@import Conta;
+
+
+main(){
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+system.println();
+
+
+Conta contaJoao1 = New Conta();
+
+Conta contaJoao2 = New Conta("Joao", "23343", 23232);
+
+
+contaJoao1.nome;
+
+
+contaJoa2.getname();
